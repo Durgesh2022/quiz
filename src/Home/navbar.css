@@ -1,0 +1,121 @@
+a {
+  text-decoration: none;
+}
+
+.nav {
+  width: 100%; /* Ensure the navbar spans the entire width of the viewport */
+  position: fixed;
+  top: 0;
+  left: 0; /* Align the navbar to the left */
+  right: 0; /* Align the navbar to the right */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  padding: 10px 20px; /* Adjust padding for consistent spacing */
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for separation */
+  z-index: 1000; /* Ensure the navbar stays on top */
+}
+
+/* Logo Styling */
+.logo a {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: white; /* Logo text color */
+ 
+  
+}
+
+/* Navbar container */
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Adjust spacing between menu items */
+margin-right: 30px;
+}
+
+/* Navbar links */
+.navbar a {
+ color: white;
+  margin: 0 10px;
+  padding: 8px 12px; /* Adjust padding for spacing */
+  border-radius: 25px; /* Make the background slightly rounded */
+
+  font-size: 1rem; /* Ensure consistent font size */
+}
+
+
+
+/* Hover Effect */
+.navbar a:hover {
+  background-color: #24a5e5; /* Add background color on hover */
+  color: white; /* Change text color to white on hover */
+}
+
+/* Dropdown Menu */
+.nav-dropdown {
+  position: relative;
+}
+
+.dropdown-toggle {
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+  display: block; /* Initially hidden */
+  z-index: 1000;
+}
+
+.dropdown-menu .dropdown-item {
+  padding: 8px 16px;
+  cursor: pointer;
+  color: #321e14;
+  white-space: nowrap;
+  font-size: 1rem;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #75D0FE;
+  color: white;
+}
+
+/* Show Dropdown on Hover */
+.nav-dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Fix alignment for "Markets We Serve" dropdown */
+.nav-dropdown {
+  margin-left: 10px; /* Optional: Adjust margin for spacing */
+}
+
+/* Coming Soon Page */
+.coming-soon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f6f6f6;
+  color: #333;
+  text-align: center;
+}
+
+.coming-soon h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.coming-soon p {
+  font-size: 1.2rem;
+}

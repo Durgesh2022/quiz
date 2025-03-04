@@ -1,0 +1,29 @@
+{ 
+  "data": [
+    {
+      "question": "Which gas is most abundant in Earth's atmosphere?",
+      "choices": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Argon"],
+      "answer": "Nitrogen"
+    },
+    {
+      "question": "Which country is known as the 'Land of the Rising Sun'?",
+      "choices": ["China", "Japan", "South Korea", "Vietnam"],
+      "answer": "Japan"
+    },
+    {
+      "question": "What is the capital of Canada?",
+      "choices": ["Toronto", "Vancouver", "Ottawa", "Montreal"],
+      "answer": "Ottawa"
+    },
+    {
+      "question": "Which sport is associated with the term 'Checkmate'?",
+      "choices": ["Chess", "Boxing", "Wrestling", "Poker"],
+      "answer": "Chess"
+    },
+    {
+      "question": "Which planet is known as the 'Red Planet'?",
+      "choices": ["Venus", "Saturn", "Mars", "Neptune"],
+      "answer": "Mars"
+    }
+  ]
+}
